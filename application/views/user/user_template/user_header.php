@@ -90,7 +90,7 @@
             </div>
          </div>   
     </div>
-    <?php if($this->uri->segment(1)=="home" || empty($this->uri->segment(1))) { ?>
+   
 <div class="slider">
     <div class="camera_wrap">
         <div data-src="<?php echo img_url();?>slide1.jpg"></div>
@@ -98,5 +98,4 @@
         <div data-src="<?php echo img_url();?>slide3.jpg"></div>
     </div>
 </div>
-<?php } else {}?>
 </header>
