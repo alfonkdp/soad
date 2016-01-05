@@ -850,6 +850,21 @@ ul#tab li h2 {
 .data-form .must-right {
   float: right;
 }
+/* table.t-sort-inside tbody {
+    height: 230px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+table.t-sort-inside tbody,
+table.t-sort-inside thead { display: block; }
+
+.t-sort-inside thead tr th { 
+    height: 30px;
+    line-height: 30px;
+} */
+#content-1.content {
+  height: 260px;
+}
 .t-sort-inside {
   width: 100%;
 }
@@ -863,7 +878,6 @@ ul#tab li h2 {
   text-align: center;
   height: 27px;
   line-height: 25px;
-  /* padding-left: 25px; */
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
@@ -874,22 +888,22 @@ ul#tab li h2 {
   transition: all 0.5s ease-out;
 }
 .t-sort-inside .tsort {
-  width: 62px;
+  width: 75px !important;
   line-height: 1px;
 }
 .t-sort-inside .tsort span {
   float: right;
-  margin-right: 20px;
+  margin-right: 10px;
   margin-top: -4px;
 }
 .t-sort-inside .tlong {
-  width: 200px;
+  width: 200px !important;
   height: 33px;
   line-height: 1px;
 }
 .t-sort-inside .tlong span {
   float: right;
-  margin-right: 20px;
+  margin-right: 15px;
   margin-top: -4px;
 }
 .t-sort-inside tbody tr {
@@ -905,6 +919,7 @@ ul#tab li h2 {
 .t-sort-inside td {
   background: url(../images/bg-table-cont.png) no-repeat;
   background-size: 110%;
+  width: 190px;
   font-family: 'NotCourierSans-Bold_gdi';
   font-size: 13px;
   color: #009dff;
@@ -935,4 +950,5 @@ ul#tab li h2 {
   z-index: -1;
   top: 0;
   left: 0;
+  width: 100%;
 }
