@@ -6,7 +6,7 @@ class GcmDriver {
     
     public function __construct() {
         // Requere Helper
-        require_once $_SERVER['DOCUMENT_ROOT'].'gcm/helper/myfiles_helper.php';
+        require_once $_SERVER['DOCUMENT_ROOT'].'/gcm/helper/myfiles_helper.php';
         $this->assets_devices_data = $_SERVER['DOCUMENT_ROOT']."/data/devices/";   
     }
     
